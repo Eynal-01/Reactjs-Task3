@@ -37,7 +37,7 @@ const ProductList = ({ products }) => {
         <div>
             <h2>Product List</h2>
                 {products.map((product, index) => (
-                    <div style={{backgroundColor:"gray", display:"inline-block", width:"320px", height:"45vh", margin:"50px"}} key={index}>
+                    <div style={{display:"inline-block", width:"320px", height:"45vh", margin:"50px"}} key={index}>
                         <div style={{marginTop:"6%", fontSize:"22px", fontWeight:"bold"}}>
                         {product.name} <br></br> {product.expirationDate}
                         </div>
